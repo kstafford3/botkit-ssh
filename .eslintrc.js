@@ -28,7 +28,7 @@ module.exports = {
     'space-before-function-paren': [ "error", {'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always'} ],
     // put linebreak before the operator
     'operator-linebreak': ["error", "before"],
-    // I'm using literal error strings, sorry not sorry
-    'standard/no-callback-literal': ['off'],
+    // let me shortcut out of forEaches
+    'no-useless-return': "off",
   }
 }
