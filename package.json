@@ -6,6 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" : { 
+    "type" : "git",
+    "url" : "git+https://github.com/kstafford3/botkit-ssh.git"
+  },
+  "keywords": [
+    "botkit",
+    "ssh",
+    "chatbot",
+    "chat"
+  ],
+  "bugs": {
+    "url" : "https://github.com/kstafford3/botkit-ssh/issues"
+  },
   "author": "kstafford3",
   "license": "MIT",
   "dependencies": {
