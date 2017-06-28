@@ -1,6 +1,6 @@
-const init = require('./index');
+const start = require('../lib/index').start;
 
-const controller = init();
+const controller = start();
 controller.spawn();
 
 controller.hears('hello', 'ambient', function (bot, message) {

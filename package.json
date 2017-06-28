@@ -2,7 +2,7 @@
   "name": "botkit-ssh",
   "version": "0.0.1",
   "description": "SSH Chat Connector for Botkit",
-  "main": "src/main/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
